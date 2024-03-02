@@ -565,9 +565,8 @@ import {
     ╰──────────⳹
      ${readMore}
 
-    乂───『 *INFO*』───乂 
-  │*Reply with the number*
-  │ to get respected Menu*
+    乂───『 *ملاحظة*』───乂 
+  │*يجب عليك الرد بالرقم على الرسالة لكي تظهر لك قائمة الاوامر التالية*
   ╰───────⳹
   ╭───────⳹
   │ *1.* Bot Menu
@@ -698,7 +697,7 @@ import {
   
   handler.help = ["play"];
   handler.tags = ["downloader"];
-  handler.command = /^(menu)$/i;
+  handler.command = /^(اوامر)$/i;
   handler.limit = true;
   export default handler;
   
